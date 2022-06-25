@@ -4,7 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+It is a BMI calculator.
+You have to enter your height and weight and you get your BMI.
 
 A few resources to get you started if this is your first Flutter project:
 
