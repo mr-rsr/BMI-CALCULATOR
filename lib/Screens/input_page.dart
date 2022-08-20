@@ -20,7 +20,7 @@ class _InputAppState extends State<InputApp> {
   Gender? selectedGender;
   int height = 178;
   int weight = 50;
-  int Age = 20;
+  int age = 20;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -164,7 +164,7 @@ class _InputAppState extends State<InputApp> {
                         style: labelStyle,
                       ),
                       Text(
-                        Age.toString(),
+                        age.toString(),
                         style: intStyle,
                       ),
                       Row(
@@ -173,7 +173,7 @@ class _InputAppState extends State<InputApp> {
                           RoundIconButton(
                               onPressed: () {
                                 setState(() {
-                                  Age--;
+                                  age--;
                                 });
                               },
                               icon: FontAwesomeIcons.minus),
@@ -183,7 +183,7 @@ class _InputAppState extends State<InputApp> {
                           RoundIconButton(
                               onPressed: () {
                                 setState(() {
-                                  Age++;
+                                  age++;
                                 });
                               },
                               icon: FontAwesomeIcons.plus),
